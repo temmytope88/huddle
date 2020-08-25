@@ -1,0 +1,86 @@
+@media screen and (min-width: 800px){
+     .sub1{
+      background-image: url(../images/bg-hero-desktop.svg);
+      padding: 2%;
+     }
+
+     .sub11{
+       grid-column: 1/4;
+     }
+
+     .sub12{
+       grid-column:1/2;
+       margin-top: 7%;
+     }
+     .sub13{
+       grid-column: 2/4;
+     }
+
+      .sub22{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        height: 480px;
+        
+      }
+
+   .caption{
+        grid-column: 2/3;
+     
+        text-align: left;
+        padding: 20% 5%;
+      }
+  
+
+    .image {
+      grid-column: 1/2;
+    }
+
+    .sub21, .sub23{
+      display: flex;
+      flex-direction: row-reverse;
+      align-content: space-between;
+      height: 480px;
+    }
+    .cap{
+      padding: 20% 5%;
+    }
+
+    .img, .cap{
+      flex-basis: 50%;
+    }
+    .sub24{
+      width:50%;
+      top:70%;
+      left:10%;
+    }
+
+    .contact{
+      grid-column: 1/2;
+    }
+
+    .social{
+      grid-column: 4/5;
+    }
+
+    .link{
+      grid-column: 2/4;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4%;
+      margin-left: 20px;
+      text-align: center;
+    }
+
+    .A{
+      grid-column: 1/2;
+    }
+    .B{
+      grid-column: 2/3;
+    }
+    
+
+      
+
+    
+}
