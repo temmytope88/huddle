@@ -20,15 +20,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
-        height: 480px;
-        
+        height: 420px;
+        padding: 8% 8%;
       }
 
    .caption{
         grid-column: 2/3;
-     
         text-align: left;
-        padding: 20% 5%;
+        padding: 15% 5%;
       }
   
 
@@ -36,19 +35,20 @@
       grid-column: 1/2;
     }
 
+
     .sub21, .sub23{
       display: flex;
       flex-direction: row-reverse;
-      align-content: space-between;
-      height: 480px;
+      height: 500px;
+      padding: 0 8%;
     }
-    .cap{
-      padding: 20% 5%;
-    }
+    
 
     .img, .cap{
       flex-basis: 50%;
     }
+
+    
     .sub24{
       width:50%;
       top:70%;
